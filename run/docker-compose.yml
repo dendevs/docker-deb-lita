@@ -1,0 +1,8 @@
+lita:
+    image: dendev/deb-lita
+    links:
+        - redis
+    stdin_open: true
+
+redis:
+    image: litaio/redis
